@@ -6,34 +6,34 @@
  Copyright   : Your copyright notice
  Description : tp 1
 
- Una agencia de viaje necesita calcular costos para sus vuelos de Latam y Aerolíneas Argentinas
+ Una agencia de viaje necesita calcular costos para sus vuelos de Latam y AerolÃ­neas Argentinas
 para ofrecerlos a sus clientes.
-Se deberá ingresar por cada vuelo los km totales y el precio total del mismo.
-El objetivo de la aplicación es mostrar las diferentes opciones de pagos a sus clientes.
+Se deberÃ¡ ingresar por cada vuelo los km totales y el precio total del mismo.
+El objetivo de la aplicaciÃ³n es mostrar las diferentes opciones de pagos a sus clientes.
 
-Para ello el programa iniciará y contará con un menú de opciones:
-1. Ingresar Kilómetros: ( km=x)
-2. Ingresar Precio de Vuelos: (Aerolíneas=y, Latam=z) (usar char)
-- Precio vuelo Aerolíneas:
+Para ello el programa iniciarÃ¡ y contarÃ¡ con un menÃº de opciones:
+1. Ingresar KilÃ³metros: ( km=x)
+2. Ingresar Precio de Vuelos: (AerolÃ­neas=y, Latam=z) (usar char)
+- Precio vuelo AerolÃ­neas:
 - Precio vuelo Latam:
 3. Calcular todos los costos:
-a) Tarjeta de débito (descuento 10%)
-b) Tarjeta de crédito (interés 25%)
+a) Tarjeta de dÃ©bito (descuento 10%)
+b) Tarjeta de crÃ©dito (interÃ©s 25%)
 c) Bitcoin (1BTC -> 4606954.55 Pesos Argentinos)
 d) Mostrar precio por km (precio unitario)
-e) Mostrar diferencia de precio ingresada (Latam - Aerolíneas)
+e) Mostrar diferencia de precio ingresada (Latam - AerolÃ­neas)
 4. Informar Resultados
-“Latam:
-a) Precio con tarjeta de débito: r
-b) Precio con tarjeta de crédito: r
+â€œLatam:
+a) Precio con tarjeta de dÃ©bito: r
+b) Precio con tarjeta de crÃ©dito: r
 c) Precio pagando con bitcoin : r
 d) Precio unitario: r
-Aerolíneas:
-a) Precio con tarjeta de débito: r
-b) Precio con tarjeta de crédito: r
+AerolÃ­neas:
+a) Precio con tarjeta de dÃ©bito: r
+b) Precio con tarjeta de crÃ©dito: r
 c) Precio pagando con bitcoin : r
 d) Precio unitario: r
-La diferencia de precio es : r “
+La diferencia de precio es : r â€œ
 5. Carga forzada de datos
 6. Salir
  ============================================================================
@@ -63,7 +63,7 @@ int main(void)
 	float unitarioZ;//precio viaje /km;
 	////////////////////////
 	float diferencia;// diferencia de precios;
-	//queria dejar registrado que el que pone la opcion 5 es un hdp
+	
 
 
 
