@@ -13,7 +13,7 @@ El objetivo de la aplicación es mostrar las diferentes opciones de pagos a sus 
 
 Para ello el programa iniciará y contará con un menú de opciones:
 1. Ingresar Kilómetros: ( km=x)
-2. Ingresar Precio de Vuelos: (Aerolíneas=y, Latam=z) (usar char)
+2. Ingresar Precio de Vuelos: (Aerolíneas=y, Latam=z)
 - Precio vuelo Aerolíneas:
 - Precio vuelo Latam:
 3. Calcular todos los costos:
@@ -121,13 +121,13 @@ int main(void)
 			else
 			{
 				printf("los precios de aerolineas son:\n");
-				printf("en debito: %.2f \n",debitoY);
-				printf("en credito: %.2f \n",creditoY);
+				printf("en debito (descuento del 10%): %.2f \n",debitoY);
+				printf("en credito (interes del 25%): %.2f \n",creditoY);
 				printf("en bitcoin: %.2f \n",bitcoinY);
 				printf("el precio unitario es %.2f \n",unitarioY);
 				printf("los precios de Latam son: \n");
-				printf("en debito: %.2f \n",debitoZ);
-				printf("en credito: %.2f \n",creditoZ);
+				printf("en debito(descuento del 10%): %.2f \n",debitoZ);
+				printf("en credito(intereses del 25%): %.2f \n",creditoZ);
 				printf("en bitcoin: %.2f \n",bitcoinZ);
 				printf("el precio unitario es %.2f \n\n",unitarioZ);
 				printf("la diferencia de precios entre aerolineas y latam es: %.2f \n",diferencia);
