@@ -134,6 +134,7 @@ int main(void)
 			}
 		break;
 		case 5:
+			printf("se realizara una carga forzada a continuacion: \n");
 			   cargaForzada();
 		break;
 		case 6:
